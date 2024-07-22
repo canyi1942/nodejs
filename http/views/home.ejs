@@ -1,0 +1,11 @@
+<html>
+    <body>
+        <%- include('../part/nav.ejs')  %>
+        <h1>Hi i am home.html; welcome123n</h1>
+        <% if (title) { %>
+            <% title.forEach(tt => { %>
+                <h2><%= tt %></h2>
+            <% }) %>
+        <% } %>
+    </body>
+</html>
